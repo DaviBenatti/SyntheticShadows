@@ -1,2 +1,1 @@
-# SyntheticShadows
-Site Oficial do RPG Synthetic Shadows
+# https://davibenatti.github.io/SyntheticShadows/
