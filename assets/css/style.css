@@ -17,12 +17,14 @@
     --color5: #BF11B4;
     --color6: #ffefcf;
     --color7: #fff;
+    --color8: #444;
+    --color9: #f7b955;
     --fonte-principal: 'Inter', sans-serif;
 }
 
 body{
     background-color: var(--fundo);
-    color: var(--color5);
+    color: var(--color7);
     font-size: 16px;
 }
 
@@ -137,12 +139,55 @@ body{
 }
 
 #first__section{
-    background-image: url(/assets/img/banner.png);
+    background-image: url(../img/banner3.png);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 .first__content{
-    padding: 5rem 5rem;
+    backdrop-filter: blur(3px);
+    padding: 4rem 4rem;
+}
+
+.first__title{
+    font-family: var(--fonte-principal);
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 700;
+    color: var(--color7);
+    padding-bottom: 1rem;
+}
+
+.title__bold{
+    color: var(--color1);
+}
+
+.first__subtitle{
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-weight: 300;
+    font-size: 1rem;
+    color: var(--color7);
+    padding-bottom: 2rem;
+}
+
+.light__bold{
+    color: var(--color9);
+}
+
+.dark__bold{
+    color: var(--color8);
+}
+
+.btn-start{
+    padding: 0.5rem 2rem;
+    border-radius: 20px;
+}
+
+.btn-start a{
+    font-family: var(--fonte-principal);
+    text-decoration: none;
 }
 
 #rodape{
