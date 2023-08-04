@@ -28,6 +28,8 @@ body{
     font-size: 16px;
 }
 
+/*Telas Mobile*/
+
 #header{
     box-sizing: border-box;
     height: 70px;
@@ -147,7 +149,8 @@ body{
 
 .first__content{
     backdrop-filter: blur(3px);
-    padding: 4rem 4rem;
+    padding: 16rem 4rem;
+    text-align: center;
 }
 
 .first__title{
@@ -156,11 +159,11 @@ body{
     text-align: center;
     font-weight: 700;
     color: var(--color7);
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 
-.title__bold{
-    color: var(--color1);
+.first__bold{
+    color: var(--color4);
 }
 
 .first__subtitle{
@@ -169,7 +172,7 @@ body{
     font-weight: 300;
     font-size: 1rem;
     color: var(--color7);
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
 }
 
 .light__bold{
@@ -181,13 +184,60 @@ body{
 }
 
 .btn-start{
-    padding: 0.5rem 2rem;
-    border-radius: 20px;
-}
-
-.btn-start a{
+    padding: 0.8rem 2rem;
+    border-radius: 15px;
+    border: none;
     font-family: var(--fonte-principal);
     text-decoration: none;
+    font-weight: 700;
+    font-size: 1em;
+    background-color: var(--color4);
+    color: var(--color7);
+}
+
+.btn-start:hover{
+    background-color: var(--color7);
+    color: var(--color4);
+}
+
+#second__section{
+    background-color: var(--color2);
+    padding: 4rem 4rem;
+}
+
+#second__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.second__title{
+    font-family: var(--fonte-principal);
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.second__bold{
+    color: var(--color4);
+}
+
+.second__text{
+    font-family: var(--fonte-principal);
+    font-weight: 300;
+    font-size: 1rem;
+    margin: auto;
+    padding-bottom: 2em;
+}
+
+.bsa__bold{
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 1.5em;
+    color: var(--color3);
+    padding-bottom: 2em;
 }
 
 #rodape{
@@ -195,10 +245,10 @@ body{
     justify-content: center;
     padding: 1rem 0;
     color: var(--color5);
-    position: fixed;
+    position: static;
     bottom: 0;
     width: 100%;
-    background-color: transparent;
+    background-color: var(--color7);
     font-family: var(--fonte-principal);
 }
 
