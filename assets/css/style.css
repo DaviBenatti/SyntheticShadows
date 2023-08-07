@@ -145,10 +145,11 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    
 }
 
 .first__content{
-    backdrop-filter: blur(3px);
+    backdrop-filter: brightness(75%);
     padding: 16rem 4rem;
     text-align: center;
 }
