@@ -31,20 +31,22 @@ body{
 /*Telas Mobile*/
 
 #header{
+    z-index: 1;
+    position: fixed;
+    width: 100vw;
     box-sizing: border-box;
     height: 70px;
     padding: 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--color6);
-    border-bottom: 4px solid var(--color2);
     font-family: var(--fonte-principal);
     font-weight: 700;
 }
 
 #logo{
     width: 60px;
+    border-radius: 100%;
 }
 
 #menu{
@@ -65,6 +67,11 @@ body{
 
 #btn-mobile{
     display: none;
+}
+
+.bg-full{
+   background: var(--color2); 
+   
 }
 
 @media (max-width: 600px) {
@@ -113,6 +120,7 @@ body{
         display: block;
         width: 20px;
         border-top: 2px solid;
+        color: var(--color7);
     }
 
     #hamburger::after, #hamburger::before{

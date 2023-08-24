@@ -1,9 +1,11 @@
 const btnMobile = document.getElementById('btn-mobile')
+const menuMobile = document.getElementById('header');
 
 function toggleMenu(event) {
     if (event.type === 'touchstart') event.preventDefault()
     const nav = document.getElementById('nav')
     nav.classList.toggle('active')
+    menuMobile.classList.toggle('bg-full')
     const active = nav.classList.contains('active')
     event.currentTarget.setAttribute('aria-expanded', 'true')
     if (active) {
